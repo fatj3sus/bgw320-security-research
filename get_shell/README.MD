@@ -1,0 +1,11 @@
+# Get shell POC
+This vulnerability is patched as of 6.33.5, but works on many prior versions
+1. Unplug the BGW320
+2. plug in a USB to uart adapater to the BGW320 usb port (MUST be a PL2303)
+3. plug in the another USB to UART adapater into a linux PC
+4. connect the two UART cables together
+5. Run ``shell_poc.py`` as root
+6. Connect to the BGW320 LAN via ethernet
+7. Enjoy your telnet shell
+
+Requires pyserial
