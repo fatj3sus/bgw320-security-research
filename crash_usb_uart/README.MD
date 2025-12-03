@@ -1,4 +1,4 @@
-# Get shell POC
+# Stack overflow POC
 This vulnerability is patched as of 6.33.5, but works on many prior versions
 1. Unplug the BGW320
 2. plug in a USB to uart adapater to the BGW320 usb port (MUST be a PL2303)
